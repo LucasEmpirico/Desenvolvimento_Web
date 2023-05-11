@@ -1,0 +1,40 @@
+body {
+    background-image: url(/Desenvolvimento_Web/CSS/Projeto_Anna_Bella/Arquivos-necessarios/fundo.png);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Principal{
+    width: 900px;
+}
+
+#menu {
+    background-color: rgb(160, 154, 147);
+    padding: 15px;
+    font-size: 1.3em;
+    color: rgb(110, 90, 66);
+    font-weight: bold;
+    
+}
+h2{
+    color: burlywood;
+    font-size: 1.6em;
+}
+.img {
+    border: solid rgb(114, 93, 68) 10px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(78, 65, 48);
+}
+
+#conteudo-principal {
+    padding: 15px;
+    background: #7a7a6f;
+}
+#rodape{
+    text-align: center;
+    padding: 10px;
+}
