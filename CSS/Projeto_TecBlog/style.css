@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: solid 1px;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
 #cabeca {
     background-color: #f7b600;
     text-align: center;
-    padding: 20px;
 }
 
 #cabecalho {
@@ -22,8 +22,38 @@ body {
 }
 #menu-barra {
     padding: 10px;
-    margin: 20px 0px;
+    margin: 10px 0px 20px 0px;
+  
 }
+
+#area-principal {
+    background: #fff;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+#conteudo {
+    margin: 0 auto;
+    width: 660px;
+    background: #fff;
+}
+
 
 a {
     padding: 20px;
