@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: solid 1px;
+   
 }
 
 body {
@@ -22,12 +22,12 @@ body {
 }
 #menu-barra {
     padding: 10px;
-    margin: 10px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
   
 }
 
 #area-principal {
-    background: #fff;
+    padding: 15px;
     width: 920px;
     margin: 0 auto;
 }
@@ -35,17 +35,24 @@ body {
 #area-postagens {
     width: 660px;
     float: left;
+    background: #fff;
 }
 
 #area-lateral {
     width: 240px;
     float: right;
+    background: #fff;
+}
+
+.postagem {
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 #rodape {
     clear: both;
     text-align: center;
-    padding: 15px;
+    padding: 35px;
     background: #ccc;
 }
 #conteudo {
@@ -54,20 +61,61 @@ body {
     background: #fff;
 }
 
+#postagens-recentes {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#categorias {
+    margin-top: 10px;
+}
 
-a {
-    padding: 20px;
-    margin: 15px;
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #f7b600;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 5px;
+}
+
+#cabeca a:visited, #cabeca a:link {
     text-decoration: none;
     color: #fff;
 }
 
-a:visited, a:link {
+#cabeca a:hover {
+   background: #fff;
+   color: #f7b600;
+   border-radius: 15px;
+}
+
+a {
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
     color: #fff;
+    
+}
+
+a:visited, a:link {
+    color: #f7b600;
 }
 
 a:hover {
-    background: #fff;
-   color: #f7b600;
-   border-radius: 15px;
+    text-decoration: underline;
+}
+
+#categorias a {
+    color: #f7b600;
+    margin: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#categorias a:hover {
+    color: #fff;
+    background: #f7b600;
 }
