@@ -15,5 +15,45 @@ body {
     border-radius: 12px;
     margin: 0 auto;
     margin-top: 120px;
+    text-align: center;
 }
 
+#conteiner img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    background-image: url(/CSS/testando_conhecimento/Formulario/arquivos-necessarios-estilizando-formularios-parte2/icone-usuario.png);
+    
+}
+
+input.senha {
+    background-image: url(/CSS/testando_conhecimento/Formulario/arquivos-necessarios-estilizando-formularios-parte2/icone-cadeado.png);
+}
+
+input.button {
+    background: #f79300;
+    color: #fff;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    border: 1px solid #db7d00;
+
+    background: linear-gradient(to top, #faa600, #f68a00);
+}
+  
