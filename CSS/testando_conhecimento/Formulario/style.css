@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS",'Times New Roman', Times, serif;
+    background: url(/CSS/testando_conhecimento/Formulario/arquivos-necessarios-estilizando-formularios-parte2/fundo.jpg) no-repeat top center;
+}
+
+#conteiner {
+    width: 400px;
+    height: 300px;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
