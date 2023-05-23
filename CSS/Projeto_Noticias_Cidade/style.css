@@ -57,3 +57,48 @@ ul {
 #topo ul a:hover {
     color: #69001d;
 }
+
+body.home #navegaçao a#home,
+body.brasil #navegaçao a#brasil,
+body.internacional #navegaçao a#internacional,
+body.economia #navegaçao a#economia,
+body.saude #navegaçao a#saude,
+body.ciencia #navegaçao a#ciencia,
+body.fotos #navegaçao a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteiner-principal {
+  margin-top: 60px;
+}
+
+#primario {
+    background-color: bisque;
+    width: 270px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#secundario {
+    width: 270px;
+    background-color: rgb(119, 31, 112);
+    float: left;
+    margin-bottom: 30px;
+}
+
+#lateral {
+    width: 180px;
+    background-color: rgb(33, 87, 112);
+    float: left;
+    margin-bottom: 30px;
+}
+
+#rodape {
+    clear: both;
+    background: #294c71;
+    padding: 50px;
+    text-align: center;
+}
+
