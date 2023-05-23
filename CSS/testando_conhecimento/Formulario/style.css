@@ -54,6 +54,6 @@ input.button {
     width: 90%;
     border: 1px solid #db7d00;
 
-    background: linear-gradient(to top, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
 }
   
