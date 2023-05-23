@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/fundo.png) repeat-x top center;
+}
+
+#conteiner {
+    width: 720px;
+    margin: 0 auto;
+}
+#topo {
+    height: 150px;
+    background: url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/logo.png);
+    text-indent: -3000px;
+}
+
