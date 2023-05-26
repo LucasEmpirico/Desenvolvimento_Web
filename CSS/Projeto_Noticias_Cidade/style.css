@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #fff url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/fundo.png) repeat-x top center;
+    background: #fff url(/Arquivos_necessarios/imagens/fundo.png) repeat-x top center;
 }
 
 #conteiner {
@@ -14,13 +14,13 @@ body {
 }
 #topo {
     height: 150px;
-    background: url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/detalhe-topo.png) no-repeat right top;
+    background: url(/Arquivos_necessarios/imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
 }
 .logo {
     width: 152px;
     height: 66px;
-    background: url(/CSS/Projeto_Noticias_Cidade/Arquivos_necessarios/imagens/logo.png);
+    background: url(/Arquivos_necessarios/imagens/logo.png);
     text-indent: -3000px;
 }
 
