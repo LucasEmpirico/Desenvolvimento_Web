@@ -78,24 +78,25 @@ body.fotos #navegaçao a#fotos {
     background-color: bisque;
     width: 270px;
     float: left;
-    margin-bottom: 30px;
+    margin: 0 0 20px 175px;
 }
 
 #secundario {
     width: 270px;
     background-color: rgb(119, 31, 112);
     float: left;
-    margin-bottom: 30px;
+    margin: 0 0 20px 5px;
 }
 
 #lateral {
     width: 180px;
     background-color: rgb(33, 87, 112);
     float: left;
-    margin-bottom: 30px;
+    margin: 0 0 20px -750px;
 }
 
 #rodape {
+    color: #fff;
     clear: both;
     background: #294c71;
     padding: 50px;
